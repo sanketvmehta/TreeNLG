@@ -14,7 +14,8 @@ IGNORE_NON_TERMINALS = {
     "__ARG_ERROR_REASON__",
     "__ARG_TEMP_UNIT__",
 }
-IGNORE_NODE_REGEX = r"\[{} [a-z_]+ \]"
+# IGNORE_NODE_REGEX = r"\[{} [a-z_]+ \]"
+IGNORE_NODE_REGEX = r"\[{} [A-Za-z_]+ \]"
 
 
 def split_and_strip(s):
